@@ -13,6 +13,7 @@
 		2330DDC41D07D04E00230385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2330DDC31D07D04E00230385 /* Assets.xcassets */; };
 		2330DDC71D07D04E00230385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2330DDC51D07D04E00230385 /* LaunchScreen.storyboard */; };
 		2330DDCF1D07D0E600230385 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 2330DDCE1D07D0E600230385 /* demo.html */; };
+		26DCFEB523CC3F6B005B24C5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCFEB423CC3F6B005B24C5 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2330DDC61D07D04E00230385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2330DDC81D07D04E00230385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2330DDCE1D07D0E600230385 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		26DCFEB423CC3F6B005B24C5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		2330DDBB1D07D04E00230385 /* SwiftJavaScriptCore */ = {
 			isa = PBXGroup;
 			children = (
-				2330DDCE1D07D0E600230385 /* demo.html */,
 				2330DDBC1D07D04E00230385 /* AppDelegate.swift */,
-				2330DDBE1D07D04E00230385 /* ViewController.swift */,
-				2330DDC01D07D04E00230385 /* Main.storyboard */,
 				2330DDC31D07D04E00230385 /* Assets.xcassets */,
-				2330DDC51D07D04E00230385 /* LaunchScreen.storyboard */,
+				2330DDCE1D07D0E600230385 /* demo.html */,
 				2330DDC81D07D04E00230385 /* Info.plist */,
+				2330DDC51D07D04E00230385 /* LaunchScreen.storyboard */,
+				2330DDC01D07D04E00230385 /* Main.storyboard */,
+				26DCFEB423CC3F6B005B24C5 /* Model.swift */,
+				2330DDBE1D07D04E00230385 /* ViewController.swift */,
 			);
 			path = SwiftJavaScriptCore;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DCFEB523CC3F6B005B24C5 /* Model.swift in Sources */,
 				2330DDBF1D07D04E00230385 /* ViewController.swift in Sources */,
 				2330DDBD1D07D04E00230385 /* AppDelegate.swift in Sources */,
 			);
